@@ -1,0 +1,26 @@
+body {
+  background-color: #6dbeaf;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #c43f3f;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
