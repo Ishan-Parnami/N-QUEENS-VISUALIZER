@@ -93,7 +93,7 @@ var nQueens = solve_Nqueens(4);
 function myfun() {
   const inputValue = parseInt(document.getElementById("inp").value);
 
-  if (inputValue >= 4 || inputValue < 9) {
+  if (inputValue >= 4) {
     document.getElementById("chessboard").style.textAlign = "center";
     const x = inputValue;
     nQueens = solve_Nqueens(x);
